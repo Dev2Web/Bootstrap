@@ -1,0 +1,113 @@
+body {
+    background-color: #585858 !important;
+    color: rgb(204, 204, 204) !important;
+}
+
+.login-form{
+	padding: 50px 0;
+}
+
+.login-form form{
+    background-color: rgb(37, 37, 37);
+    max-width: 500px;
+    margin: auto;
+    padding: 40px 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 2px 10px rgb(131, 130, 130);
+}
+
+.login-form .form-name{
+	text-align: center;
+    font-size: 40px;
+    color: #78c2ad;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 25px;
+    line-height: 100px;
+}
+
+.login-form .item{
+	border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+.login-form .login-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #78c2ad;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.login-form .form-group a {
+    color: #78c2ad !important;
+}
+
+.login-form .social-media{
+    max-width: 500px;
+    background-color: rgb(37, 37, 37);
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #78c2ad;
+    border-top: 1px solid #dee9ff;
+    box-shadow: 0px 2px 10px rgb(131, 130, 130);
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 10px !important;
+    margin: 5px 0;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+    opacity: 0.6;
+  }
+
+.login-form .social-icons{
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.login-form .social-icons a{
+    font-size: 23px;
+    margin: 0 3px;
+    color: #78c2ad;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+.login-form .social-icons a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+/* @media (max-width: 576px) {
+    .login-form form{
+        padding: 50px 20px;
+    }
+
+    .login-form .form-name{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+} */
