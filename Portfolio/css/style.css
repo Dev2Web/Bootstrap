@@ -1,0 +1,103 @@
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(99, 98, 98, 0.4), rgba(48, 48, 48, 0.5)), url("../images/header.jpg") no-repeat center /cover;
+}
+
+
+/* Navbar */
+.navbar-brand .h4 {
+    color: #000;
+}
+
+.nav-menu {
+    background: linear-gradient(rgba(223, 223, 223, 0.6), rgba(245, 245, 245, 0.6));
+    padding: 20px;
+    transition: all .8s;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+
+.menu-item {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0,0,0);
+    transition: all .4s;
+}
+
+.menu-item:hover {
+    color:rgb(151, 85, 212) !important;
+}
+
+.nav-active {
+    color:rgb(151, 85, 212);
+}
+
+
+/* Banner */
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: rgb(255, 255, 255);
+}
+
+/* About */
+.about {
+    background: #e4e4e4;
+}
+
+.svg-inline--fa {
+    color: rgb(151, 85, 212);
+}
+
+.underline {
+    width: 150px;
+    border: 3px solid rgb(151, 85, 212);
+    margin: auto;
+}
+
+
+.work {
+    background: #1b1b1b;
+}
+
+.work .lead {
+    color: 1b1b1b;
+}
+
+.card-shadow {
+    box-shadow: 5px 8px 20px rgba(44, 44, 44, 0.822);
+}
+
+.heading {
+    position:absolute;
+    top: 70%;
+    right: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #1b1b1b;
+    background: #222;
+    width: 70%;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
+.heading:hover {
+    opacity: 1;
+}
+
+#main-footer {
+    background-color: #e4e4e4;
+    color: #1b1b1b;
+    font-size: 13px;
+    transition: all .3s;
+}
+
+#main-footer p {
+    margin-top: 15px;
+}
